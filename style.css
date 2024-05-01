@@ -1,0 +1,91 @@
+/* Estilo do cabeçalho */
+header {
+  background-color: transparent;
+  color: white;
+  padding: 5px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+#lista-projetos {
+  background-color: transparent;
+  color: white;
+}
+
+/* Estilo da barra lateral */
+aside {
+  float: left;
+  border-right: 5px transparent;
+  background-color: transparent;
+  width: 180px;
+  position: fixed;
+  top: 86px;
+  bottom: 0;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+/* Estilo do conteúdo principal */
+main {
+  margin-top: 85px; /* para compensar o cabeçalho fixo */
+  margin-left: 220px;
+  margin-right: -7px; /* para compensar a barra lateral fixa */
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  color: red;
+}
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: blue;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Estilo dos detalhes do projeto */
+#conteudo-exibido {
+  margin-top: 10px;
+}
+
+/* Estilo das informações pessoais */
+.informacoes-pessoais img {
+  width: 150px;
+  border-radius: 10%;
+}
+img {
+  width: 300px;
+  border-radius: 5%;
+}
+/* Estilo do portfólio */
+#valores {
+  margin-top: 20px;
+}
+/* Estilo do sobre mim */
+#sobre-nos {
+  margin-top: 10px;
+}
+footer {
+  text-align: center;
+  padding: 1px 0;
+  background-color: transparent;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 5px transparent;
+}
+body {
+  background-image: url(/img/L560_18MY_513_GBL.png);
+  background-size: cover;
+}
